@@ -1,0 +1,52 @@
+/* ----- MAIN ----- */
+#about{
+  min-height: 420px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: rgb(230, 70, 30) 3px solid;
+}
+#about .OmDalaNDF{
+float: left;
+margin-right: 50px;
+background-color: rgb(255, 255, 255);
+}
+#about h1{
+  margin-left: 50px;
+  margin-top: 0px;
+  font-size: 45px;
+  color: rgb(50, 60, 70);
+}
+#about p{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 25px;
+  color: rgb(50, 60, 70);
+}
+#boxes{
+  padding: 20px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
+}
+.box{
+  background: rgb(255, 255, 255);
+  text-align: center;
+  padding: 2rem 2rem;
+  box-shadow: 0 5px 15px rgb(0, 0, 0);
+  color:rgb(50, 60, 70);
+}
+.box h2{
+  font-size: 35px;
+}
+.box h2 a{
+  text-decoration: none;
+  color: rgb(50, 60, 70);
+}
+.box h2 a:hover{
+  text-decoration: underline;
+}
+.box p{
+  font-size: 25px;
+}
+.box:hover{
+  box-shadow: 0px 5px 5px rgb(255, 255, 255);
+}
