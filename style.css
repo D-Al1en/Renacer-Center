@@ -2,6 +2,7 @@
 @import "styleIndex.css";
 @import "styleServices.css";
 @import "styleClasses.css";
+@import "styleSent.css";
 
 body{
   font: 15px/1.5 "Calibri", sans-serif;

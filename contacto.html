@@ -36,13 +36,17 @@
         <aside class="contactSection">
           <div class="contactBox">
             <form class="contactForm" action="https://formsubmit.co/08ecebe55611f26a9dd9ce79b6034e9c" method="POST">
+              <!-- Honeypot for spam -->
+              <input type="text" name="_honey" style="diplay: none">
+              <!-- Disable Captcha -->
+              <input type="hidden" name="_captcha" value="false">
+              <!-- Sent message page -->
               <input type="hidden" name="_next" value="https://d-al1en.github.io/Renacer-Center/enviado.html">
               <div>
                 <label for="name" class="form-label">Nombre</label><br>
                 <input type="text" class="form-control" name="name" id="name" required>
               </div>
               <div>
-                <br>
                 <label for="email" class="form-label">Correo</label><br>
                 <input type="email" class="form-control" name="email" id="email" required>
               </div>
